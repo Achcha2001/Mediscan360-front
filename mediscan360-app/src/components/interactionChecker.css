@@ -1,0 +1,37 @@
+/* interactionChecker.css */
+
+.interaction-checker-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f2f2f2;
+  }
+  
+  .left-square {
+    flex: 1;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-right: 10px;
+  }
+  
+  .right-square {
+    flex: 1;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: none;
+  }
+  
+  .right-square.show {
+    display: block;
+  }
+  
+  /* .form-container input,
+  .form-container button {
+    /* Adjust styles for input and buttons within the form container as needed */
+  
+  
